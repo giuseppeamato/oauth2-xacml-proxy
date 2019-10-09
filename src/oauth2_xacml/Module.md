@@ -34,10 +34,8 @@ oauth2_xacml:GatewayConfiguration gatewayConf = {
    idsEndpoint: config:getAsString("oauth2_xacml.endpoint"),
    idsUsername: config:getAsString("oauth2_xacml.username"),
    idsPassword: config:getAsString("oauth2_xacml.password"),
-   keystorePath: config:getAsString("oauth2_xacml.keystorePath"),
-   keystorePassword: config:getAsString("oauth2_xacml.keystorePassword"),
    truststorePath: config:getAsString("oauth2_xacml.truststorePath"),
-   truststorePassword: config:getAsString("oauth2_xacml.truststorePassword"),    
+   truststorePassword: config:getAsString("oauth2_xacml.truststorePassword"),
    idsIntrospectPath: config:getAsString("oauth2_xacml.introspectPath"),
    idsUserInfoPath: config:getAsString("oauth2_xacml.userInfoPath"),
    idsAuthorizationPath: config:getAsString("oauth2_xacml.authorizationPath")
