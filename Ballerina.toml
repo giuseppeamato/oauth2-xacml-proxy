@@ -1,0 +1,9 @@
+[project]
+org-name = "pz8"
+version = "1.0.0"
+authors = ["Giuseppe Amato"]
+repository = "https://github.com/giuseppeamato/oauth2-xacml-proxy"
+keywords = ["ballerina", "oauth2", "xacml", "proxy", "connector"]
+license = ["Apache-2.0"]
+
+[dependencies]
