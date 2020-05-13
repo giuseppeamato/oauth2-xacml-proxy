@@ -80,7 +80,7 @@ resource function startProcess(http:Caller caller, http:Request request) returns
 ```
 
 The signature of the `gateway` function expects the following parameters:
-```ballerina
+```java
 public remote function gateway(http:Caller caller, http:Request request, 
     http:Client targetClient, string serviceUrl, 
     boolean authorizationEnabled, 
@@ -99,7 +99,7 @@ To manipulate di request before it's sent to the proxied service, you need to pa
 
 For example:
 
-```ballerina
+```java
 @http:ResourceConfig {
    methods: ["GET"],
    path: "/test"
@@ -123,7 +123,7 @@ The `process` method expects the same parameters of the `gateway` method, but re
 
 For example:
 
-```ballerina
+```java
 @http:ResourceConfig {
    methods: ["GET"],
    path: "/test"
