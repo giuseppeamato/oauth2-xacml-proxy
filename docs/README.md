@@ -1,4 +1,3 @@
-OAuth2 XACML Ballerina Proxy Connector
 
 # Module Overview
 
