@@ -20,17 +20,17 @@ Tested with WSO2 Identity Server 5.8.
 ## Getting Started
 
 You can pull the module from Ballerina Central using the command:
-```bash
+```shell
 $ ballerina pull pz8/oauth2_xacml
 ```
 
 Import the `pz8/oauth2_xacml` module into your Ballerina project.
-```ballerina
+```java
 import pz8/oauth2_xacml;
 ```
 
 Set the proper attributes in the configuration object, usually filled in a toml configuration file, and instantiate the connector
-```ballerina
+```java
 oauth2_xacml:GatewayConfiguration gatewayConf = {
    idsEndpoint: config:getAsString("oauth2_xacml.endpoint"),
    idsUsername: config:getAsString("oauth2_xacml.username"),
