@@ -45,7 +45,7 @@ oauth2_xacml:GatewayConfiguration gatewayConf = {
 oauth2_xacml:Client oauth2Client = new(gatewayConf);
 ```
 Concrete example of the configuration file:
-```ballerina
+```toml
 [oauth2_xacml]
 endpoint="https://localhost:9443"
 username="@encrypted:{+HS3IPMC5RjPiipvk4pXi7dEYosFtIK7RG3iD4i6UAw=}"
