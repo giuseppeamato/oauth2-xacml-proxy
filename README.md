@@ -10,7 +10,7 @@ This component does not perform token generation, but simply checks its validity
 
 Tested with WSO2 Identity Server 5.8.
 
-This module is published on Ballerina central 
+Published on Ballerina central:
 
 <https://central.ballerina.io/pz8/oauth2_xacml>
 
