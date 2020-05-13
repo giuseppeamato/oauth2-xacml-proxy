@@ -20,7 +20,7 @@ Tested with WSO2 Identity Server 5.8.
 ## Getting Started
 
 You can pull the module from Ballerina Central using the command:
-```ballerina
+```bash
 $ ballerina pull pz8/oauth2_xacml
 ```
 
@@ -45,7 +45,7 @@ oauth2_xacml:GatewayConfiguration gatewayConf = {
 oauth2_xacml:Client oauth2Client = new(gatewayConf);
 ```
 Concrete example of the configuration file:
-```toml
+```ballerina
 [oauth2_xacml]
 endpoint="https://localhost:9443"
 username="@encrypted:{+HS3IPMC5RjPiipvk4pXi7dEYosFtIK7RG3iD4i6UAw=}"
