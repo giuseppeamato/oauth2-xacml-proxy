@@ -11,6 +11,7 @@ This component does not perform token generation, but simply checks its validity
 Tested with WSO2 Identity Server 5.8.
 
 ## Compatibility
+
 |                          |    Version     |
 |:------------------------:|:--------------:|
 | Ballerina Language       | 1.0.0          |
@@ -19,7 +20,7 @@ Tested with WSO2 Identity Server 5.8.
 ## Getting Started
 
 You can pull the module from Ballerina Central using the command:
-```ballerina
+```bash
 $ ballerina pull pz8/oauth2_xacml
 ```
 
