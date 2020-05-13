@@ -69,7 +69,7 @@ level="DEBUG"
 + `truststorePassword`: password for truststore file
 
 In your module create a resource to proxy the remote service and invoke the `gateway` method of the connector.
-```ballerina
+```java
 @http:ResourceConfig {
    methods: ["GET"],
    path: "/test"
