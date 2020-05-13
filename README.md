@@ -1,4 +1,4 @@
-OAuth2 XACML Proxy Connector
+OAuth2 XACML Ballerina Proxy Connector
 
 # Module Overview
 
@@ -28,7 +28,7 @@ Import the `pz8/oauth2_xacml` module into your Ballerina project.
 import pz8/oauth2_xacml;
 ```
 
-Set the proper attributes in the configuration object, ususally filled in a toml configuration file, and instantiate the connector
+Set the proper attributes in the configuration object, usually filled in a toml configuration file, and instantiate the connector
 ```ballerina
 oauth2_xacml:GatewayConfiguration gatewayConf = {
    idsEndpoint: config:getAsString("oauth2_xacml.endpoint"),
