@@ -16,7 +16,7 @@ Published on Ballerina central: <https://central.ballerina.io/pz8/oauth2_xacml>
 
 |                          |    Version     |
 |:------------------------:|:--------------:|
-| Ballerina Language       | 1.0.0          |
+| Ballerina Language       | 1.2.4          |
 | XACML                    | 3.0            |
 
 ## Getting Started
